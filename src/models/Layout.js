@@ -1,4 +1,21 @@
-const layoutObjects = [];
+const layoutObjects = [
+  {
+    id: 1,
+    rows: 3,
+    cols: 3,
+    fill: '', // Not sure what this should be
+    styles: {
+        display: 'grid',
+        gridTemplateRows: `repeat(3, 1fr)`,
+        gridTemplateColumns: `repeat(3, 1fr)`,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+    },
+  }
+];
 
 
 export default class Layout {
