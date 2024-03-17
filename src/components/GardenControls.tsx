@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Badge from 'react-bootstrap/Badge';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -20,7 +21,7 @@ const propTypes = {
 };
 
 const btnGroupContainerClass = 'd-flex flex-column m-1 p-0 border border-secondary rounded text-center text-nowrap';
-const btnGroupLabelClass = 'badge badge-secondary rounded-0 w-100';
+const btnGroupLabelClass = 'bg-secondary rounded-0 w-100 text-white';
 
 const GardenControls = ({ addRowOptions, deleteRowOptions, addColOptions, deleteColOptions }) => {
 
